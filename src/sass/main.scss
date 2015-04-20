@@ -2,8 +2,14 @@
 @import '../bower_components/fontawesome/scss/font-awesome';
 
 @import 'variables';
+@import 'typo';
 
 //common sccs
 @import '../modules/common/common';
+
+@import "../modules/nav/nav";
+
+@import "../modules/button/button";
+
 @import "../modules/footer/footer";
 @import "../modules/footer/footer-lists";

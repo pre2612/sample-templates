@@ -1,0 +1,33 @@
+body {
+  font-family: 'Lato';
+  font-weight: 400;
+
+  p{
+    font-size: $base-font;
+    line-height: 23px;
+    color: $dark-grey;
+    margin: 0 0 20px;
+    &.small {
+      font-size: 10px;
+      margin: 0 0 5px;
+      line-height: 13px;
+    }
+    &.caption {
+      color: $red;
+      font-style: italic;
+    }
+  }
+
+  h2 {
+    font: 22px 'Merriweather';
+    line-height: 27px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .well {
+    background: $light-brown;
+    border-color: $light-brown;
+  }
+
+}

@@ -1,0 +1,23 @@
+.navbar-default {
+  width: 100%;
+  background-color: $red;
+  .nav {
+    width: 100%;
+  }
+  .navbar-nav li {
+    width: 9%;
+    a {
+      background: $red;
+      color: $white;
+      border-right: 1px solid $light-red;
+      text-align: center;
+    }
+    &.active,&.focus,&:hover a{
+      background-color: $off-white;
+      color: $red;
+    }
+  }
+  .navbar-collapse {
+    //padding: 0;
+  }
+}
