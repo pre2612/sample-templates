@@ -1,0 +1,15 @@
+{
+  "name": "immigration-template",
+  "version": "1.0.0",
+  "authors": [
+    "Preethy Borrawar <preethy.borrawar@gmail.com>"
+  ],
+  "description": "Immigration template",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "foundation": "~5.5.1",
+    "fontawesome": "~4.3.0",
+    "picturefill": "~2.3.1"
+  }
+}
